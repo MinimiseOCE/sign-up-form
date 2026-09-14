@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+body {
+    display: flex;
+}
+
 .bgImage {
     background-image: url(rebel.jpg);
     background-size: cover;
@@ -15,6 +19,18 @@
     align-items: center;
     height: 15vh;
     width: 100%;
-    background-color: rgb(0 0 0 / 15%);
-    transform: translate(0, 30vh);
+    background-color: rgb(0 0 0 / 7%);
+    transform: translate(0, 19vh);
+}
+
+.formSection {
+    height: 32vh;
+    width: 70vw;
+    box-shadow: 0 4px 8px -4px rgba(0, 0, 0, 0.5);
+}
+
+.infoSection {
+    background-color: #F5F5F5;
+    height: 34vh;
+    width: 70vw;
 }
