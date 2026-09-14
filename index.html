@@ -14,19 +14,19 @@
     </div>
     <div class="info-page">
         <div class="infoSection" id="ctaSection">
-            <p>
+            <p class="boldText">
                 Stuck in a perpetual loop? No progress?<br>
                 Seek innovation, REBEL NOW.
             </p>
 
-            <p>
-                You know you want to.
+            <p class="boldText">
+                You <i class="boldText">know</i> you want to.
             </p>
         </div>
         
         <div class="formSection">
             <form>
-                <p>Let's do this!</p>
+                <p class="boldText">Let's do this!</p>
                 <div class="formRow">
                     <div class="formBlock">
                         <label for="fname">FIRST NAME</label>
@@ -50,11 +50,11 @@
                 <div class="formRow">
                     <div class="formBlock">
                         <label for="pw">PASSWORD</label>
-                        <input type="password" id="pw" name="pw"> 
+                        <input type="password" id="pw" name="pw" required minlength="8"> 
                     </div>
                     <div class="formBlock">
                         <label for="cpw">CONFIRM PASSWORD</label>
-                        <input type="password" id="cpw" name="cpw">
+                        <input type="password" id="cpw" name="cpw" minlength="8" required>
                     </div>
                 </div>
             </form>
