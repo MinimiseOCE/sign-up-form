@@ -96,5 +96,18 @@ a {
 
 a:hover {
     cursor: pointer;
-    text-decoration: underlinet;
+    text-decoration: underline;
+}
+
+#ctaSection {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: end;
+}
+
+#btnSection {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
