@@ -1,9 +1,42 @@
+@font-face {
+  font-family: Troika; /* set name */
+  src: url(/fonts/troika.otf); /* url of the font */
+}
+
 * {
     margin: 0;
+    font-size: 0.8rem;
 }
 
 body {
     display: flex;
+}
+
+h1 {
+    font-family: 'Troika';
+    letter-spacing: 4px;
+    font-size: 3rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formRow {
+    display: flex;
+    gap: 30px;
+}
+
+.formBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
 }
 
 .bgImage {
@@ -23,14 +56,45 @@ body {
     transform: translate(0, 19vh);
 }
 
+.formSection, .infoSection {
+    width: 70vw;
+    padding: 30px;
+    box-sizing: border-box
+}
+
 .formSection {
     height: 32vh;
-    width: 70vw;
     box-shadow: 0 4px 8px -4px rgba(0, 0, 0, 0.5);
 }
 
+label {
+    letter-spacing: 1px;
+}
 .infoSection {
     background-color: #F5F5F5;
     height: 34vh;
-    width: 70vw;
+}
+
+button {
+    background: #f44336;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+    width: 180px;
+    box-shadow: 1 1 1 1;
+}
+
+button:hover {
+    cursor: pointer;
+    filter: brightness(150%);
+}
+
+a {
+    color: #f44336;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underlinet;
 }
